@@ -20,3 +20,7 @@ cd /home/mounted/envs
 ./create_env.sh my_env_name [python=3.8]
 ./rm_env.sh my_env_name #TO correctly unregister and delete whole env
 ```
+
+> PS:
+> Here the notebooks will under a git version control automatically, so instead of multiple checkpoints of jupyter, we are on local Git.
+> Now, Never lose any code while using concurrent sessions over same notebooks.
