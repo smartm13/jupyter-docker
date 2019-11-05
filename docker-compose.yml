@@ -1,0 +1,7 @@
+  py35_conda:
+    image: py/conda
+    ports:
+      - "8080-8090:8080-8090"
+    volumes:
+      - /home/docker/kaam_ki_dir/jupyter_entry_mount/:/home/mounted
+    entrypoint: bash -c "/home/mounted/envs/install_all.sh && /home/mounted/envs/jupyter_launcher.sh"
