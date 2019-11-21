@@ -14,13 +14,15 @@ And your jupyter will be started on 8080.
 __To configure things__ like password, port number: Change arguments in ./jupyter_entry_mount/envs/jupyter_launcher.sh"
 
 __To manage virtual env:__  
-Open a terminal using jupyter itself (run bash -i in terminal for interactivity).
+Open a terminal using jupyter itself (run `bash -i` in this jupyter terminal for interactivity - using TAB :) ).
 ```
 cd /home/mounted/envs
+                                            # To create a new env-kernel-
 ./create_env.sh my_env_name [python=3.8]
-./rm_env.sh my_env_name #TO correctly unregister and delete whole env
+                                            # To properly unregister and delete whole env-
+./rm_env.sh my_env_name
 ```
 
 > PS:
-> Here the notebooks will under a git version control automatically, so instead of multiple checkpoints of jupyter, we are on local Git.
+> Here the notebooks will be under a git version control automatically, so instead of multiple checkpoints of jupyter, we are on local Git.
 > Now, Never lose any code while using concurrent sessions over same notebooks.
