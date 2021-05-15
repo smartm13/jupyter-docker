@@ -1,6 +1,6 @@
 FROM continuumio/anaconda3:2020.02
 #set corporate proxy
-#ENV http_proxy=http://genproxy.amdocs.com:8080 https_proxy=http://genproxy.amdocs.com:8080 no_proxy=localhost,127.0.0.1,.corp.amdocs.com
+#ENV http_proxy=http://genproxy:8080 https_proxy=http://genproxy:8080 no_proxy=localhost,127.0.0.1,.corp.xyz.com
 RUN apt-get update
 RUN apt-get install -y curl wget nano htop
 
