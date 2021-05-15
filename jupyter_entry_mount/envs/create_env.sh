@@ -1,4 +1,6 @@
 #!/bin/bash
+set -e
+
 package="python=3.7"
 if [ -z "$1" ]
   then
