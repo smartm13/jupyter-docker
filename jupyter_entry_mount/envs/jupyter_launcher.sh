@@ -1,3 +1,2 @@
 #!/bin/bash
-/opt/conda/bin/jupyter notebook --NotebookApp.open_browser=False --NotebookApp.token= --notebook-dir=/home/mounted --NotebookApp.ip=0.0.0.0 --NotebookApp.port_retries=0 --NotebookApp.password=sha1:04bc0ac53dc8:455b574033db7db3a16be8b0a714c1c981f1fc87 --port=${JUPYTER_PORT:=8080} --debug --allow-root
-
+/opt/conda/bin/jupyter lab --NotebookApp.default_url=/lab/tree/notebooks --NotebookApp.open_browser=False --NotebookApp.token=regnartsuoysekamylpmisuoylliktnseodtahweveilebi --notebook-dir=/home/mounted --preferred-dir=/home/mounted --NotebookApp.ip=0.0.0.0 --NotebookApp.port_retries=0 --NotebookApp.password=sha1:e2c265ed5faf:909825b4ddec6c5752bbaa155c275b612473f3fe --port=${JUPYTER_PORT:=8080} --debug --allow-root --collaborative --NotebookApp.allow_password_change=False

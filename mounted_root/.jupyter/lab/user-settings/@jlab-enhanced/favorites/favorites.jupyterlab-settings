@@ -1,0 +1,17 @@
+{
+    // Favorites
+    // @jlab-enhanced/favorites:favorites
+    // Favorites settings.
+    // **********************************
+
+    // Favorites
+    // The list of favorites.
+    "favorites": [
+        {
+            "root": "/home/mounted",
+            "contentType": "directory",
+            "iconLabel": "ui-components:folder",
+            "path": "notebooks"
+        }
+    ]
+}
