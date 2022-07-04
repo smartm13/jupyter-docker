@@ -1,6 +1,9 @@
 FROM continuumio/miniconda3:4.12.0
+
 #set corporate proxy
-ENV http_proxy=http://genproxy:8080 https_proxy=http://genproxy:8080 no_proxy=localhost,127.0.0.1,.corp.amdocs.com
+#ENV http_proxy=http://genproxy:8080 https_proxy=http://genproxy:8080 no_proxy=localhost,127.0.0.1,.corp.xyz.com
+
+# update/add os packages
 RUN apt-get update
 RUN apt-get install -y curl wget nano htop vim ncdu netcat 
 
